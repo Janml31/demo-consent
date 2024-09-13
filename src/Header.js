@@ -5,8 +5,8 @@ function Header() {
   return (
     <div className="header">
       <img 
-        src="https://marutisuzukiarenaprodcdn.azureedge.net/-/media/images/maruti/marutisuzuki/global/maruti-logo.webp?h=39&w=194&la=en&hash=A8D386DD695C25850B9EE818532657AC" 
-        alt="Maruti Suzuki Logo"
+        src="https://seeklogo.com/images/Y/yono-logo-8EDA1025B6-seeklogo.com.png" 
+        alt="SBI Logo"
       />
       <div className="contact-info">
         <img 
@@ -14,7 +14,7 @@ function Header() {
           alt="Profile Logo" 
           className="profile-logo"
         />
-        <a href="mailto:contact@maruti.co.in">contact@maruti.co.in</a>
+        <a href="mailto:contact@sbi.co.in">contact@sbi.co.in</a>
       </div>
     </div>
   );

@@ -37,16 +37,16 @@ const Navbar = () => {
     <div>
       <div className="navbar">
         <a href="#" className={`navbar-link ${activeTab === 'home' ? 'active' : ''}`} onClick={() => handleTabChange('home')}>My Profile</a>
-        <a href="#" className={`navbar-link ${activeTab === 'car' ? 'active' : ''}`} onClick={() => handleTabChange('car')}>Car Enquiries/Booking</a>
+        <a href="#" className={`navbar-link ${activeTab === 'car' ? 'active' : ''}`} onClick={() => handleTabChange('car')}>Account Query</a>
         <a href="#" className={`navbar-link ${activeTab === 'service' ? 'active' : ''}`} onClick={() => handleTabChange('service')}>Service Bookings</a>
         <a href="#" className={`navbar-link ${activeTab === 'loyalty' ? 'active' : ''}`} onClick={() => handleTabChange('loyalty')}>Loyalty/Rewards</a>
-        <a href="#" className={`navbar-link ${activeTab === 'accessories' ? 'active' : ''}`} onClick={() => handleTabChange('accessories')}>Maruti Suzuki Genuine Accessories</a>
+        <a href="#" className={`navbar-link ${activeTab === 'accessories' ? 'active' : ''}`} onClick={() => handleTabChange('accessories')}>SBI Offers</a>
         <a href="#" className={`navbar-link ${activeTab === 'config' ? 'active' : ''}`} onClick={() => handleTabChange('config')}>My Configurations</a>
-        <a href="#" className={`navbar-link ${activeTab === 'privacy' ? 'active' : ''}`} onClick={() => handleTabChange('privacy')}>Privacy</a>
+        <a href="#" className={`navbar-link ${activeTab === 'privacy Setting' ? 'active' : ''}`} onClick={() => handleTabChange('privacy Setting')}>privacy Setting</a>
         <a href="#" className={`navbar-link ${activeTab === 'package' ? 'active' : ''}`} onClick={() => handleTabChange('package')}>Customer Convenience Package</a>
       </div>
 
-      {activeTab === 'privacy' && (
+      {activeTab === 'privacy Setting' && (
         <div className="privacy-content">
           <p>Privacy Notice: We value your privacy. Please provide your consent for data collection.</p>
        	  <p>{consentGiven ? "Thank you for giving consent." : "Consent has been withdrawn."}</p>
